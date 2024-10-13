@@ -15,7 +15,7 @@ const Header = () => {
         <div className='logo'>
             <img src={logo} alt="" />
         </div>
-        <div className='nav'>
+        <div className={responsive ? 'hidMenu' : 'nav'}>
             {navlink.map((links, i) => (
                 <Link to={links.url} key={i}>{links.text}</Link>
             ))}
