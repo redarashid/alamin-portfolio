@@ -56,6 +56,9 @@ button {
   margin-top: 20px;
   cursor: pointer;
 }
+.fontSize {
+  font-size: 20px;
+}
 .primaryBtn {
   background: none;
   border: 2px solid var(--primaryColor);
@@ -144,7 +147,26 @@ section {
   font-size: 60px;
   font-weight: 600;
   color: var(--primaryColor);
-}
+} 
+ 
+
 
 
 /* End Section */
+
+/*---------about-------------*/
+.about .primaryBtn {
+  margin-left: 20px;
+}
+.about .heading {
+  text-align: left;
+  margin: 0;
+}
+.left {
+  width: 35%;
+}
+.right {
+  width: 65%;
+}
+
+/*---------about-------------*/
