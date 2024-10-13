@@ -19,3 +19,47 @@ body {
   color: var(--white);
   font-family: "Poppins", sans-serif;
 }
+a {
+  color: var(--greyDark);
+  text-decoration: none;
+  transition: 0.5s;
+}
+a:hover {
+  color: var(--primaryColor);
+}
+p {
+  color: var(--sliver);
+  font-size: 15px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.dflexsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Start Header */
+.container img {
+  padding: 20px 0;
+}
+header {
+  background-color: var(--headingColor);
+  height: 10vh;
+  line-height: 10vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+header a {
+  margin-left: 40px;
+}
+
+/* End Header */
