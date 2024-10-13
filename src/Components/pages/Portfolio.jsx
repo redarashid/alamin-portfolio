@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import { Heading } from "./common/Heading"
-import { portfolio } from "./data/dummydata"
+import { Heading } from "../common/Heading"
+import { portfolio } from "../data/dummydata"
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined"
 
 const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))]

@@ -1,6 +1,6 @@
 import React from "react"
 import Slider from "react-slick"
-import { testimonials } from "./data/dummydata"
+import { testimonials } from "../data/dummydata"
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"

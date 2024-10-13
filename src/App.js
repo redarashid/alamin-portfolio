@@ -1,17 +1,23 @@
+import "./App.css"
+import { Pages } from "../components/pages/Pages"
+import { useEffect } from "react"
 
-import './App.css';
-import Page from './Components/pages/Page';
-import Home from './Components/home/Home';
-
-
+//npm install --save aos@next
+//aos
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 function App() {
+  //aos
+  useEffect(() => {
+    AOS.init()
+    AOS.refresh()
+  }, [])
   return (
-    <div>
-      <Home/>
-      <Page/>
-    </div>
-  );
+    <>
+      <Pages />
+    </>
+  )
 }
 
-export default App;
+export default App
